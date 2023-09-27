@@ -39,7 +39,7 @@ const MapComponent = ({ countries }) => {
 
 		// Reset the border style back to the default value
 		layer.on("popupclose", () => {
-			layer.setStyle({ weight: 1 });
+			layer.setStyle({ weight: 0.5 });
 		});
 	};
 
