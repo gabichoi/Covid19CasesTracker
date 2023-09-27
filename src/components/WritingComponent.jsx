@@ -5,14 +5,16 @@ const WritingComponent = () => {
 		display: "flex",
 		flexDirection: "column",
 		justifyContent: "center",
-		alignItems: "center",
 		minHeight: "100vh",
 		backgroundColor: "#D6EAFA",
 	};
 
 	const contentStyle = {
 		padding: "20px",
-		flex: "1",
+		width: "100%",
+		height: "100%",
+		alignItems: "stretch",
+		overflowY: "auto",
 	};
 
 	return (
